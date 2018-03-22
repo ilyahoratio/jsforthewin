@@ -12,7 +12,7 @@ rl.question("Set the password length: ", function (passwordLength) {
 
   rl.close();
 
-  var passwordChars = "AaBbCcDdEeFfGgHhIiKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789!?@/|)(%#}{][+-=:;";
+  var passwordChars = `AaBbCcDdEeFfGgHhIiKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789()\`~!@#$%^&*-+=|{}[]:;"'<>,.?/`;
   var password = '';
 
 

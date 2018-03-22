@@ -12,19 +12,19 @@ You choose the length
 
 1) Run the file through node 
 
-```shell
+```
 node pass-gen.js
 ```
 
 2) Select the length of your password
 
-```shell
+```
 Set the password length: 10
 ```
 
 3) Get a randomly generated password with the length you had chosen
 
-```shell
+```
 The password length will be: 10
 Wait for it...
 ----------

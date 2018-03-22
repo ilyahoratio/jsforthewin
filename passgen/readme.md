@@ -1,4 +1,4 @@
-## Password Generator
+## Node Password Generator
 ### You choose the length 
 
 ___

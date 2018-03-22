@@ -12,17 +12,13 @@ rl.question("Set the password length: ", function (passwordLength) {
 
   rl.close();
 
-  var passwordChars = "AaBbCcDdEeFfGgHhIiKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789!?@/|)(%#}{][+-=:;"
+  var passwordChars = "AaBbCcDdEeFfGgHhIiKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789!?@/|)(%#}{][+-=:;";
   var password = '';
 
-  var newChar = 0;
 
-  while (password.length < (passwordLength)) {
+  while (password.length < passwordLength) {
     var passwordCharsIndex = Math.floor(Math.random() * (passwordChars.length));
     password += passwordChars[passwordCharsIndex];
-    newChar++;
   }
-
-  console.log(`Here's your randomly ${passwordLength} symbols generated password:
-${password}`);
+  console.log(`Here's your randomly ${passwordLength} symbols generated password: ${password}`);
 });

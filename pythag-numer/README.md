@@ -1,11 +1,11 @@
-#Simple Node Pythagorean Numerology Calculator
+# Simple Node Pythagorean Numerology Calculator
 You enter what you would like to calculate and you get the output with a letter-by-letter breakdown.
 
 
-#About 
+# About 
 I wouldn't ask you why you might ever need this kind of calculator. Assuming that you somehow ended up here, then I guess you know what you are doing and most importantly why.
 
-#Usage
+# Usage
 
 1) Run the file through node 
 

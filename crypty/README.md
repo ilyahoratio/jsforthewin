@@ -1,4 +1,4 @@
-# Simple Node Message Encryptor Decryptor
+# Crypty / Simple Node Message Encryptor Decryptor
 Encrypt / decrypt your messages in node with aes-256-ctr encryption.
 
 # About 

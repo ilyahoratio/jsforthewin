@@ -1,0 +1,15 @@
+{
+  "name": "reverso-to-anki-fr",
+  "version": "0.0.1",
+  "description": "Look up FR-EN constructions in Reverso Context via command line and set how many examples you would like to see. Then you choose either to export the Anki-friendly examples in a txt file (which can be later on imported in Anki, yay, sweetness) or just have a look at the examples without saving them whatsoever. Afterwards, the examples are displayed.",
+  "main": "reverso-to-anki.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Horatio",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.85.0"
+  }
+}
